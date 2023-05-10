@@ -1,1 +1,10 @@
-test
+test commit 2
+
+//merge sort
+void merge(int *arr, int low, int mid, int high) {
+	int left = low, right = mid + 1;
+	int *tmp = new int[high - low + 1];
+	int k = 0;
+	while (left <= mid && right <= high) {
+		if (arr[left] < arr[right])
+			tmp[k++] = arr[left++]
