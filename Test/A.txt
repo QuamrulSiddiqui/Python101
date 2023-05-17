@@ -1,4 +1,4 @@
-test commit 2
+test commit 3
 
 //merge sort
 void merge(int *arr, int low, int mid, int high) {
