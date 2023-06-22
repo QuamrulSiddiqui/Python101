@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 test commit 3
 
 //merge sort
@@ -8,3 +9,7 @@ void merge(int *arr, int low, int mid, int high) {
 	while (left <= mid && right <= high) {
 		if (arr[left] < arr[right])
 			tmp[k++] = arr[left++]
+=======
+test
+Test 12 
+>>>>>>> f9c113435ebd0b0704620d9dd9d7c8f4da3d53d5
